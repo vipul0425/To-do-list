@@ -30,7 +30,8 @@ const Landing = ()=>{
                 </div>
             </form>
             <div>
-                <button className="btn btn-warning"><Link to="/pending" className="text-decoration-none fw-bold text-dark">Pending Tasks</Link></button>
+                <button className="btn btn-warning"><Link to="/allTasks" className="text-decoration-none fw-bold text-dark">Show Tasks</Link></button>
+                <button className="btn btn-warning ms-3"><Link to="/pending" className="text-decoration-none fw-bold text-dark">Pending Tasks</Link></button>
                 <button className="btn btn-warning ms-3"><Link to="/completed" className="text-decoration-none fw-bold text-dark">Completed Tasks</Link></button>
             </div>
         </div>

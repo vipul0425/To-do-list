@@ -27,14 +27,6 @@ const Completed = () => {
             Back to home
           </Link>
         </button>
-        <button className="btn btn-warning ms-3">
-          <Link
-            to="/pending"
-            className="text-decoration-none fw-bold text-dark"
-          >
-            Pending Tasks
-          </Link>
-        </button>
       </div>
     </div>
 

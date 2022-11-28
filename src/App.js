@@ -4,6 +4,7 @@ import Landing from './Landing';
 import Pending from './Pending';
 import Completed from './Completed';
 import TaskContext from './TaskContext';
+import Tasks from './Tasks';
 import { useState } from 'react';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Landing />} />
         <Route path='/pending' element={<Pending />} />
+        <Route path='/allTasks' element={<Tasks />} />
         <Route path='/completed' element={<Completed />} />
       </Routes>
     </div>
